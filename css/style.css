@@ -5,6 +5,7 @@ body{
     background-image:url('../img/page-hero-primary.png');
 }
 
+
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -64,4 +65,37 @@ body{
 
 .tab-pane{
     margin-bottom: 2em;
+}
+
+@media (min-width: 1200px)
+{
+    .container {
+        max-width: 1340px !important;
+    }
+}
+
+.playerNumber{
+    font-size: 3.5em;
+    color: #efefef;
+    
+}
+
+.playerName{
+    color: #e90052;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.playerPosition{
+    color:#72767e;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.playerDetailSection{
+    padding: 1.6em .2em;
+}
+
+.playerNumberSection{
+    
 }
