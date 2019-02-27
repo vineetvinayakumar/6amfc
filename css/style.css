@@ -31,10 +31,7 @@ body{
     color:#ffffff;
 }
 
-.month{
-    color:#E90052;
-    font-weight: 600;
-}
+
 
 .navbar-brand{
   color:#ffffff !important;
@@ -107,4 +104,13 @@ body{
 
 .navbar-toggler-icon{
     background-color: #f8f8f8;
+}
+
+.month{
+    color:#E90052;
+    font-weight: 600;
+}
+
+.monthTab{
+    font-size: 1.3em;
 }
